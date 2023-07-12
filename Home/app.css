@@ -1,0 +1,31 @@
+h3 {
+    font-weight: 600;
+}
+
+.home-page {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.card img {
+    width: 200px;
+    min-height: 180px;
+    margin: 5px auto;
+}
+
+.card a{
+    background-color: var(--primary-color);
+    width: 15rem;
+}
+
+.card a:hover {
+    background-color: var(--secondary-color);
+}
